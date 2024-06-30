@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Conversion tools to convert fractions and minutes to decimal">
+    <meta name="keywords" content="3/16 to decimal, minutes to decimal, 5/16 to decimal, 1/8 to decimal, 3/16th to decimal, 3/8 to decimal, 58 to decimal, conversion tools">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraction and Minutes to Decimal Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Fraction and Minutes to Decimal Tools</h1>
+</header>
+<main>
+    <article>
+        <h2>About This Tool</h2>
+        <p>Welcome to our conversion tool, designed to help you easily convert various fractions and minutes into decimal values. Whether you need to convert <strong>3/16 to decimal</strong>, <strong>5/16 to decimal</strong>, <strong>1/8 to decimal</strong>, <strong>3/16th to decimal</strong>, or <strong>3/8 to decimal</strong>, this tool simplifies the process. Additionally, it provides an easy way to convert <strong>minutes to decimal</strong> and even simple integer values like <strong>58 to decimal</strong>. Use this tool for quick and accurate conversions.</p>
+    </article>
+    <article>
+        <h2>Fraction to Decimal and Minutes to Decimal Conversion</h2>
+        <p>Converting fractions to decimals is a common mathematical task that can be useful in various fields such as engineering, science, and everyday calculations. A fraction represents a part of a whole and is written as a ratio of two numbers, the numerator and the denominator. To convert a fraction to a decimal, you simply divide the numerator by the denominator. For example, the fraction 3/16 can be converted to a decimal by dividing 3 by 16, which equals 0.1875. Similarly, 5/16 is 0.3125, and 1/8 is 0.125. This tool simplifies these conversions, allowing you to quickly and accurately determine the decimal equivalents of various fractions.</p>
+        <p>Minutes to decimal conversion are equally important, especially in fields that require precise time management and calculations, such as project planning, aviation, and event scheduling. Converting minutes to a decimal format involves dividing the number of minutes by 60, as there are 60 minutes in an hour. For instance, to convert 30 minutes to decimal, you divide 30 by 60, resulting in 0.5. This tool enables you to easily perform these conversions, ensuring accuracy and saving time. Whether you need to convert minutes for a work schedule or calculate time-based billing, having a reliable conversion tool at your fingertips is invaluable. For more comprehensive conversion tools, visit <a href="https://fromtotools.com/">FromToTools.com</a>, where you can find various resources to aid in different types of conversions.</p>
+    </article>
+    <section>
+        <h2>Fraction to Decimal Conversion</h2>
+        <div>
+            <label for="fractionSelect">Select a Fraction:</label>
+            <select id="fractionSelect" onchange="convertFraction()">
+                <option value="3/16">3/16</option>
+                <option value="5/16">5/16</option>
+                <option value="1/8">1/8</option>
+                <option value="3/16">3/16</option>
+                <option value="3/8">3/8</option>
+                <option value="58">58</option>
+            </select>
+        </div>
+        <div>
+            <label for="fractionInput">Or Enter a Fraction (e.g., 2/3):</label>
+            <input type="text" id="fractionInput" oninput="convertFraction()" />
+        </div>
+        <p id="fractionResult">Decimal: </p>
+    </section>
+    <section>
+        <h2>Minutes to Decimal Conversion</h2>
+        <div>
+            <label for="minutes">Enter Minutes:</label>
+            <input type="number" id="minutes" oninput="convertMinutes()" />
+        </div>
+        <p id="minutesResult">Decimal: </p>
+    </section>
+</main>
+<footer>
+    <p>For more tools, visit <a href="https://fromtotools.com/">FromToTools.com</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
